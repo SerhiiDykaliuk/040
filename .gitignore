@@ -1,0 +1,4 @@
+# ignored files for git
+*.swp
+.vagrant/
+*.log
