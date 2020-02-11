@@ -16,9 +16,4 @@
 #running .bin
 /vagrant/atlassian-confluence-7.3.1-x64.bin -q -varfile response.varfile
 
-# installing mysql
-yum -y localinstall https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
-yum -y install mysql-community-server
-systemctl start mysqld
-systemctl enable mysqld
 
